@@ -8,6 +8,7 @@
     "kind": "plugin"
   },
   "dependencies": {
+    "@strapi/strapi": "4.x",
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
     "@strapi/icons": "^1.6.3",
