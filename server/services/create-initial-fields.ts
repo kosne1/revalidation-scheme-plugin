@@ -25,7 +25,6 @@ export default ({ strapi }: { strapi: Strapi }) => ({
 
     const newEntities = notFound.map((item: any, index: number) => {
       return {
-        name: item,
         uid: item,
         x: 0,
         y: (maxYNode?.y || 0) + (1 + index) * 100,

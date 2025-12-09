@@ -85,7 +85,6 @@ const HomePage = () => {
       let bufferNode = {
         id: +item.id,
         uid: item.data.label,
-        name: item.data.label,
         x: Math.round(item.position.x),
         y: Math.round(item.position.y),
         target: [] as any[],
