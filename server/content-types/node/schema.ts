@@ -33,7 +33,6 @@ export default {
       type: "relation",
       relation: "oneToMany",
       target: "plugin::revalidation-scheme.node",
-      mappedBy: "client"
     },
   },
 };
