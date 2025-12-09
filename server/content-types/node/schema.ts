@@ -53,5 +53,11 @@ export default {
       target: "plugin::revalidation-scheme.node",
       inversedBy: "children"
     },
+    test: {
+      type: "relation",
+      relation: "oneToMany",
+      target: "plugin::revalidation-scheme.node",
+      mappedBy: "client"
+    }
   },
 };
