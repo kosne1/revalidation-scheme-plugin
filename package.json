@@ -32,9 +32,7 @@
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.2.1"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "maintainers": [
     {
       "name": "A Strapi developer"
@@ -48,5 +46,21 @@
     "develop": "tsc -p tsconfig.server.json -w",
     "build": "tsc -p tsconfig.server.json"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "strapi-admin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kosne1/revalidation-scheme-plugin.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "revalidation",
+    "scheme",
+    "cache"
+  ],
+  "bugs": {
+    "url": "https://github.com/kosne1/revalidation-scheme-plugin/issues"
+  },
+  "homepage": "https://github.com/kosne1/revalidation-scheme-plugin#readme"
 }
